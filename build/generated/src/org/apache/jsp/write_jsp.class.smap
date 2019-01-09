@@ -1,0 +1,10 @@
+SMAP
+write_jsp.java
+JSP
+*S JSP
+*F
++ 0 write.jsp
+write.jsp
+*L
+5,55:44
+*E
