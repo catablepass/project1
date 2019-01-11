@@ -1,64 +1,86 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang=en>
 <head>
-<title>Записная книжка IT-специалиста</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
-<meta name="description" content="Place your description here" />
-<meta name="keywords" content="put, your, keyword, here" />
-<meta name="author" content="Templates.com - website templates provider" />
-<link href="style.css" rel="stylesheet" type="text/css" />
-<link href="layout.css" rel="stylesheet" type="text/css" />
-<!--[if lt IE 7]>
-   <link href="style_ie.css" rel="stylesheet" type="text/css" />
-<![endif]-->
+	<meta charset=UTF-8>
+	<title>ИТ-Блокнот | Все лучшее для вас</title>
+	<!--[if lt IE 9]><script src=http://html5shiv.googlecode.com/svn/trunk/html5.js></script><![endif]-->
+	<link href=styles.css rel=stylesheet />
+	<!--[if lt IE 9]><link href=ie.css rel=stylesheet /><![endif]-->
 </head>
-<body id="page1">
-<div class="tail-top-right"></div>
-<div class="tail-top">
-  <div class="tail-bottom">
-    <div id="main">
-      <!-- header -->
-      <div id="header">
-        <form action="" method="post" id="form">
-          <div>
-            <label>Поиск по сайту:</label>
-            <span>
-            <input type="text" />
-            </span></div>
-        </form>   
-        <ul class="site-nav">
-          <li><a href="index.html">Главная страница</a></li>
-          <li><a href="about-us.html">О нас</a></li>
-          <li><a href="services.html">Каталог</a></li>
-        </ul>
-        <div class="logo"><a href="index.html"><img src="images/logo1.gif" alt="" /></a></div>
-        <div class="slogan">
-		<img src="images/slogan1.gif" alt="" />
-		</div>
-      </div>
-      <!-- content -->
-      <div id="content">
-        <div class="wrapper"> 
-          <div class="col-3">
-            <h3>Еще одна записная книжка или зачем изобретать второй велосипед?</h3>
-            <p class="p1">Тема, которую мы решили развиться, уже достаточно давно имеет место быть. Так как множество ИТ-специалистов разных структур и профилей ищут инструкции</p>
-            <p class="p1">к каким-либо программным продуктам или аппаратным средствам. И мы решили сделать подобную записную книжку, где будут размещаться статьи\инструкции\советы, которые возможно напишем мы или найдем, подкорректируем и выложим для вас.</p>
-            <p class="p1">При размещении будут соблюдаться авторские права.</p>
-            
-          </div>
-          
-        </div>
-      </div>
-      <!-- footer -->
-      <div id="footer">
-        <div class="indent">
-          <div class="fleft">Copyright - Савельев А. Доброхотов В.</div>
-          <div class="fright">Учебный проект группы ЭВТ-16 бзу</div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<body>
+<header>
+	<hgroup>
+		<h1><a href=#>ИТ-Блокнот | Все лучшее для вас</a></h1>
+		<h2>Блокнот с лучшими инструкциями</h2>
+	</hgroup>
+	<nav id=global>
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about-us.html">О нас</a></li>
+			<li><a href="write.html">Внесение</a></li>
+			</li>	
+		</ul>
+	</nav>
+</header>
+
+<div class=clearfix>
+	<div id=content>
+		<article>
+			<header>
+				<div class=time>
+					<div class=year>2018</div>
+					<div class=date>16<span>dec</span></div>
+				</div>
+				<h1>Поле для поиска</h1>
+			</header>
+			<p>На сайтах часто востребован поиск по ключевым словам, для ввода которых используется текстовое поле. В HTML5 для поиска добавлено новое поле, синтаксис его следующий:
+
+input type="search" атрибуты
+Используемые атрибуты совпадают с текстовым полем.
+
+Разница между текстовым полем и полем для поиска состоит в стилистическом оформлении. На платформах, где поисковая форма имеет свой собственный уникальный вид, легко придать полю аналогичное оформлении. В большинстве браузеров поле для поиска по своему виду никак не отличается от текстового поля, за исключением Chrome, Safari и IE10, которые добавляют небольшой крестик в правой части для быстрой очистки введённого текста </p>
+			В примере  показано создание формы с полем для поиска.
+			!DOCTYPE html
+html>
+ head
+  meta charset="utf-8"
+  title>Поиск/title
+ /head
+ body
+  form
+   p>input type="search" name="q" placeholder="Поиск по сайту" 
+   input type="submit" value="Найти"/p
+  /form>
+ /body>
+/html
+			<footer>
+				<em>Автор:</em> <strong> Доброхотов В.</strong>
+				<span class=newLine></span>
+				
+			</footer>
+		</article>
+		
+	</div>	
+	<aside>
+		<nav>
+			<h1>Полезное</h1>
+			<ul class=links>
+				<li><a href="https://toster.ru/q/15984">Идейные товарищи</a></li>
+				<li><a href="https://www.google.ru/">Для вечно ищущих истину</a></li>
+			</ul>
+		</nav>
+	</aside>
+ </form>
+			</ul>
+		</nav>
+	</aside>
 </div>
+
+<footer class=clearfix>
+		
+	<p class=copyright>Copyright &copy; 2019 <strong>ЭВТ-16 бзу, Савельев А. Доброхотов В.</strong>. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
